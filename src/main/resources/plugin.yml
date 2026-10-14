@@ -1,6 +1,6 @@
 name: WaystoneWarps
 version: 0.0.0-PLACEHOLDER
-api-version: '26.2'
+api-version: '26.3'
 main: dev.mizarc.waystonewarps.WaystoneWarps
 soft-depend: [Towny]
 libraries:

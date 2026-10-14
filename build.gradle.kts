@@ -37,6 +37,9 @@ repositories {
         url = uri("https://oss.sonatype.org/content/repositories/central")
     }
     maven {
+        url = uri("https://central.sonatype.com/repository/maven-snapshots/")
+    }
+    maven {
         url = uri("https://repo.aikar.co/content/groups/aikar/")
     }
     maven {
@@ -54,13 +57,13 @@ repositories {
 dependencies {
     testImplementation(kotlin("test"))
     compileOnly("org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0")
-    compileOnly("io.papermc.paper:paper-api:26.2.build.132-stable")
+    compileOnly("io.papermc.paper:paper-api:26.3.build.175-stable")
     compileOnly("org.jetbrains.kotlin:kotlin-stdlib:2.3.0")
     compileOnly("io.insert-koin:koin-core-jvm:4.1.1")
     implementation("co.aikar:idb-core:1.0.0-SNAPSHOT")
     implementation("co.aikar:acf-paper:0.5.1-SNAPSHOT")
     compileOnly("com.zaxxer:HikariCP:7.0.2")
-    implementation("com.github.stefvanschie.inventoryframework:IF:0.12.0")
+    implementation("com.github.stefvanschie.inventoryframework:IF:0.12.2-SNAPSHOT")
     compileOnly("com.github.MilkBowl:VaultAPI:1.7.1")
     compileOnly("me.xdrop:fuzzywuzzy:1.4.0")
     compileOnly("com.palmergames.bukkit.towny:towny:0.102.0.14")
