@@ -4,10 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on Keep a Changelog, and this project adheres to Semantic Versioning.
 
+## [1.1.1]
+
+### Changed
+- Support for Minecraft 26.3. Now requires Paper 26.3+ and Java 25.
+
+### Fixed
+- Error when opening anvil menus (e.g. naming a waystone) on Minecraft 26.3.
+
 ## [1.1.0]
 
 ### Added
-- Support for Minecraft 26.3. Now requires Paper 26.3+ and Java 25.
+- Support for Minecraft 26.1.
 - New `/warpcreate` command to create a new waystone via command. Build a waystone as usual but type this command while looking at the lodestone block. Permission to use: `waystonewarps.command.warpcreate`
 - New "Global" access type for warps. Warps with this access can be used without discovery.
 - Boss bar teleport timer. Can be optionally toggled via config.
