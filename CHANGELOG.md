@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on Keep a Changelog, and this project adheres to Semantic Versioning.
 
+## [1.1.2]
+
+### Fixed
+- Warp menu displaying only a single row of warps and failing to paginate when a page was full (21 or more warps).
+
 ## [1.1.1]
 
 ### Changed
